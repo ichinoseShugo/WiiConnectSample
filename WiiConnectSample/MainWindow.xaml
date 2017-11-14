@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WiiConnectSample"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="350" Width="525"
+        Loaded="Window_Loaded" Unloaded="Window_Unloaded">
+    <StackPanel>
+        <Label Name="XAxis" Content="XAxis"/>
+        <Label Name="YAxis" Content="YAxis"/>
+        <Label Name="ZAxis" Content="ZAxis"/>
+    </StackPanel>
 </Window>

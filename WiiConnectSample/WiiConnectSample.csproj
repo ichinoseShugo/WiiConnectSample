@@ -45,6 +45,9 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="WiimoteLib">
+      <HintPath>..\..\..\..\..\Documents\dll\WiimotLib_1.7\WiimoteLib.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
